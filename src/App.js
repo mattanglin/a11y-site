@@ -25,8 +25,8 @@ const A11y = () => (
   <iframe
     src="https://dev-portal.audioeye.com/accessibility-statement.html?domain=http://a11y.matthewanglin.com/"
     title="Accessibility Statement"
-    style="width:100%;height:4700px"
-    frameborder="0"
+    style={{ width: '100%', height: '4700px' }}
+    frameBorder="0"
   />
 );
 

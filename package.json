@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pages": "rm -rf ./docs && yarn build && mv build docs"
+    "pages": "rm -rf ./docs && yarn build && mv build docs && git checkout docs/CNAME"
   },
   "eslintConfig": {
     "extends": [
